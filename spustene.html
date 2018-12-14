@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+  <link rel="stylesheet" href="main.css">
+  <script src="javascript-metin2.js"></script>
+  <style>
+   @import url('https://fonts.googleapis.com/css?family=Nunito|Spectral+SC');
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Metin2 CZ/SK servery
+  </title>
+  <link rel="shortcut icon" href="images/metin2logoico.ico">
+  <header>
+    <img src="images/mt2-wallpaper.jpg" class="background-image">
+    <a href="index.html"><img src="images/metin2logo_main.png" class="metin2logo"></a>
+  </header>
+</head>
+<body>
+  <h1>Spuštěné servery</h1>
+  <a href="spustene.html">
+  <input type="button" value="Spuštěné" class="button button1">
+  </a>
+  <a href="pripravovane.html">
+    <input type="button" value="Připravované" class="button button2">
+  </a>
+  <a href="ukoncene.html">
+    <input type="button" value="Ukončené" class="button button3">
+  </a>
+<main>
+<table id="myTable">
+  <tr>
+    <th class="th0"></th>
+    <th class="th1"><a href="javascript:NameSort()">Název serveru</a></th>
+    <th class="th2"><a href="javascript:LevelSort()">Maximální level</a></th>
+    <th class="th3"><a href="javascript:DateSort()">Datum spuštění</a></th>
+    <th class="th5"><a href="javascript:AccountSort()">Počet účtů</a></th>
+    <th class="th6"><a href="javascript:AutorSort">Autor</a></th>
+  </tr>
+  <tr>
+    <td class="td1"><a href="http://www.quadcore.cz/" target=_blank><img src="images/quadcore.png" class="odkazy ob"></a></td>
+    <td class="td2">Quadcore</td>
+    <td class="td3 td2">200</td>
+    <td class="td3 td2">?</td>
+    <td class="td3 td2">?</td>
+    <td class="td3 td2">?</td>
+  </tr>
+  <tr>
+    <td class="td1"><a href="http://www.ekura.cz/novinky" target=_blank><img src="images/ekura.png" class="odkazy ob"></a></td>
+    <td class="td2">Ekura</td>
+    <td class="td3 td2">150</td>
+    <td class="td3 td2">?</td>
+    <td class="td3 td2">?</td>
+    <td class="td3 td2">?</td>
+  </tr>
+  <tr>
+    <td class="td1"><a href="http://www.last-world.cz/" target=_blank><img src="images/lastworld.jpg" class="odkazy ob"></a></td>
+    <td class="td2">Last World</td>
+    <td class="td3 td2">180</td>
+    <td class="td3 td2">?</td>
+    <td class="td3 td2">?</td>
+    <td class="td3 td2">?</td>
+  </tr>
+  <tr>
+    <td class="td1"><a href="https://www.web.etern.cz/" target=_blank><img src="images/etern.jpg" class="odkazy ob"></a></td>
+    <td class="td2">Etern</td>
+    <td class="td3 td2">150</td>
+    <td class="td3 td2">10.9 2016</td>
+    <td class="td3 td2">4272</td>
+    <td class="td3 td2">?</td>
+  </tr>
+  <tr>
+      <td class="td1"><a href="https://laroxion.cz" target=_blank><img src="images/laroxion.png" class="odkazy ob"></a></td>
+    <td class="td2">Laroxion</td>
+    <td class="td3 td2">250</td>
+    <td class="td3 td2">září 2012</td>
+    <td class="td3 td2">78836</td>
+    <td class="td3 td2">?</td>
+  </tr>
+  <tr>
+    <td class="td1"><a href="https://praeterita-world.cz/" target=_blank><img src="images/praeteria.png" class="odkazy ob"></a></td>
+    <td class="td2">Praeteria World</td>
+    <td class="td3 td2">305</td>
+    <td class="td3 td2">?</td>
+    <td class="td3 td2">1933</td>
+    <td class="td3 td2">?</td>
+  </tr>
+  <tr>
+    <td class="td1"><a href="https://cz.metin2.gameforge.com/" target=_blank><img src="images/fenix.png" class="odkazy ob"></a></td>
+    <td class="td2">Metin 2</td>
+    <td class="td3 td2">120</td>
+    <td class="td3 td2">?</td>
+    <td class="td3 td2">?</td>
+    <td class="td3 td2">?</td>
+  </tr>
+  <tr>
+    <td class="td1"><a href="http://attomey.simplygames.cz/" target=_blank><img src="images/attomey2.png" class="odkazy ob"></a></td>
+    <td class="td2">Attomey</td>
+    <td class="td3 td2">211</td>
+    <td class="td3 td2">?</td>
+    <td class="td3 td2">288967</td>
+    <td class="td3 td2">?</td>
+  </tr>
+  <tr>
+    <td class="td1"><a href="http://wodmt2.cz/web/" target=_blank><img src="images/wod.png" class="odkazy ob"></a></td>
+    <td class="td2">World of Definition</td>
+    <td class="td3 td2">300</td>
+    <td class="td3 td2">27.1 2016</td>
+    <td class="td3 td2">?</td>
+    <td class="td3 td2">?</td>
+  </tr>
+  <tr>
+    <td class="td1"><a href="http://wodmt2.cz/2.O/" target=_blank><img src="images/wod.png" class="odkazy ob"></a></td>
+    <td class="td2">World of Definition 2.0</td>
+    <td class="td3 td2">300</td>
+    <td class="td3 td2">27.7 2018</td>
+    <td class="td3 td2">?</td>
+    <td class="td3 td2">?</td>
+  </tr>
+  <tr>
+    <td class="td1"><a href="http://aureria.simplygames.cz/" target=_blank><img src="images/aureria.png" class="odkazy ob"></a></td>
+    <td class="td2">Aureria Classic</td>
+    <td class="td3 td2">120</td>
+    <td class="td3 td2">?</td>
+    <td class="td3 td2">?</td>
+    <td class="td3 td2">?</td>
+  </tr>
+  <tr>
+      <td class="td1"><a href="https://saitan.cz/" target=_blank><img src="images/saitan.png" class="odkazy ob"></a></td>
+      <td class="td2">Saitan</td>
+      <td class="td3 td2">120</td>
+      <td class="td3 td2">?</td>
+      <td class="td3 td2">2046</td>
+      <td class="td3 td2">?</td>
+  </tr>
+  <tr>
+      <td class="td1"><a href="https://godnite.cz/home" target=_blank><img src="images/godnite.png" class="odkazy ob"></a></td>
+      <td class="td2">Godnite</td>
+      <td class="td3 td2">200</td>
+      <td class="td3 td2">?</td>
+      <td class="td3 td2">16602</td>
+      <td class="td3 td2">?</td>
+  </tr>
+  <tr>
+      <td class="td1"><a href="https://web.pretorians.cz/" target=_blank><img src="images/pretorians.png" class="odkazy ob"></a></td>
+      <td class="td2">Pretorians</td>
+      <td class="td3 td2">130</td>
+      <td class="td3 td2">28.4 2018</td>
+      <td class="td3 td2">?</td>
+      <td class="td3 td2">?</td>
+  </tr>
+  <tr>
+      <td class="td1"><a href="http://www.etaria.cz/index.php" target=_blank><img src="images/etaria.png" class="odkazy ob"></a></td>
+      <td class="td2">Etaria</td>
+      <td class="td3 td2">155</td>
+      <td class="td3 td2">4.2 2018</td>
+      <td class="td3 td2">7833</td>
+      <td class="td3 td2">?</td>
+  </tr>
+  <tr>
+      <td class="td1"><a href="http://thyone.simplygames.cz/" target=_blank><img src="images/Thyone2.png" class="odkazy ob"></a></td>
+      <td class="td2">Thyone2</td>
+      <td class="td3 td2">150</td>
+      <td class="td3 td2">?</td>
+      <td class="td3 td2">?</td>
+      <td class="td3 td2">?</td>
+  </tr>
+  <tr>
+      <td class="td1"><a href="https://thaunen.eu/" target=_blank><img src="images/thaunen.png" class="odkazy ob"></a></td>
+      <td class="td2">Thaunen</td>
+      <td class="td3 td2">250</td>
+      <td class="td3 td2">19.7.2018</td>
+      <td class="td3 td2">?</td>
+      <td class="td3 td2">?</td>
+  </tr>
+  <tr>
+      <td class="td1"><a href="https://gigazone.cz/" target=_blank><img src="images/gigazone.png" class="odkazy ob"></a></td>
+      <td class="td2">Gigazone</td>
+      <td class="td3 td2">130</td>
+      <td class="td3 td2">19.7.2018</td>
+      <td class="td3 td2">2524</td>
+      <td class="td3 td2">?</td>
+  </tr>
+  <tr>
+      <td class="td1"><a href="http://www.spaceworld.cz/index.php" target=_blank><img src="images/spaceworld.jpg" class="odkazy ob"></a></td>
+      <td class="td2">Space World</td>
+      <td class="td3 td2">250</td>
+      <td class="td3 td2">?</td>
+      <td class="td3 td2">63618</td>
+      <td class="td3 td2">?</td>
+  </tr>
+  <tr>
+      <td class="td1"><a href="http://tenebrism2.cz/" target=_blank><img src="images/tenebris.jpg" class="odkazy ob"></a></td> <!--- https://www.facebook.com/m2Tenebris/ --->
+      <td class="td2">Tenebris</td>
+      <td class="td3 td2">120</td>
+      <td class="td3 td2">14.7 2018</td>
+      <td class="td3 td2">13</td>
+      <td class="td3 td2">LaystoN</td>
+  </tr>
+</table>
+<a href="index.html">
+  <input type="button" value="Domů" class="button4a button4 button">
+</a>
+</main>
+</body>
+</html>
