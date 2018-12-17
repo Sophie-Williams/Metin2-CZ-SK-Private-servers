@@ -16,6 +16,9 @@
     <img src="images/mt2-wallpaper.jpg" class="background-image">
     <a href="index.html"><img src="images/metin2logo_main.png" class="metin2logo"></a>
   </header>
+  <embed src="audio/metin2themesong.mp3" autostart="true" loop="true" loop="loop"
+  width="0" height="0">
+  </embed>
 </head>
 <body>
   <h1>Spuštěné servery</h1>
@@ -32,11 +35,12 @@
 <table id="myTable">
   <tr>
     <th class="th0"></th>
-    <th class="th1"><a href="javascript:NameSort()">Název serveru</a></th>
-    <th class="th2"><a href="javascript:LevelSort()">Maximální level</a></th>
-    <th class="th3"><a href="javascript:DateSort()">Datum spuštění</a></th>
-    <th class="th5"><a href="javascript:AccountSort()">Počet účtů</a></th>
-    <th class="th6"><a href="javascript:AutorSort">Autor</a></th>
+    <th class="th1"><a href="javascript:NameSort()" class="topfunctions"><p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Název serveru</p></a></th>
+    <th class="th2"><a href="javascript:LevelSort()" class="topfunctions"><p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Maximální level</p></a></th>
+    <th class="th3"><a href="javascript:DateSort()" class="topfunctions"><p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Datum spuštění</p></a></th>
+    <th class="th5"><a href="javascript:AccountSort()" class="topfunctions"><p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Počet účtů</p></a></th>
+    <th class="th6"><a href="javascript:AutorSort" class="topfunctions"><p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Autor</p></a></th>
+    <audio id="mySound" src="audio/beep1.wav">
   </tr>
   <tr>
     <td class="td1"><a href="http://www.quadcore.cz/" target=_blank><img src="images/quadcore.png" class="odkazy ob"></a></td>
@@ -58,6 +62,14 @@
     <td class="td1"><a href="http://www.last-world.cz/" target=_blank><img src="images/lastworld.jpg" class="odkazy ob"></a></td>
     <td class="td2">Last World</td>
     <td class="td3 td2">180</td>
+    <td class="td3 td2">?</td>
+    <td class="td3 td2">?</td>
+    <td class="td3 td2">?</td>
+  </tr>
+  <tr>
+    <td class="td1"><a href="https://web.ashia2.cz/Novinky" target=_blank><img src="images/lastwordsdsd.jpg" class="odkazy ob"></a></td>
+    <td class="td2">Ashia2</td>
+    <td class="td3 td2">?</td>
     <td class="td3 td2">?</td>
     <td class="td3 td2">?</td>
     <td class="td3 td2">?</td>

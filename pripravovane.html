@@ -16,6 +16,9 @@
     <img src="images/mt2-wallpaper.jpg" class="background-image">
     <a href="index.html"><img src="images/metin2logo_main.png" class="metin2logo"></a>
   </header>
+  <embed src="audio/metin2themesong.mp3" autostart="true" loop="true" loop="loop"
+  width="0" height="0">
+  </embed>
 </head>
 <body>
   <h1>Připravované servery</h1>
@@ -29,14 +32,15 @@
     <input type="button" value="Ukončené" class="button button3">
   </a>
 <main>
-  <table>
+  <table id="myTable">
     <tr>
       <th class="th0"></th>
-      <th class="th1">Název serveru</th>
-      <th class="th2">Maximální level</th>
-      <th class="th3">Datum spuštění</th>
-      <th class="th4">Hodnocení</th>
-      <th class="th6">Popis</th>
+      <th class="th1"><a href="javascript:NameSort()" class="topfunctions"><p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Název serveru</p></a></th>
+      <th class="th2"><a href="javascript:LevelSort()" class="topfunctions"><p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Maximální level</p></a></th>
+      <th class="th3"><a href="javascript:DateSort()" class="topfunctions"><p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Datum spuštění</p></a></th>
+      <th class="th5"><a href="javascript:AccountSort()" class="topfunctions"><p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Počet účtů</p></a></th>
+      <th class="th6"><a href="javascript:AutorSort" class="topfunctions"><p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Autor</p></a></th>
+      <audio id="mySound" src="audio/beep1.wav">
     </tr>
     <tr>
         <td class="td1"><a href="https://www.facebook.com/FairyTale2Official/" target=_blank><img src="images/fairytale.png" class="odkazy ob"></a></td>
@@ -55,10 +59,34 @@
         <td class="td4">?</td>
     </tr>
     <tr>
+        <td class="td1"><a href="http://www.lothya.cz/" target=_blank><img src="images/otaznik.png" class="odkazy ob"></a></td>
+        <td class="td2">Lothya</td>
+        <td class="td3 td2">?</td>
+        <td class="td3 td2">?</td>
+        <td class="td3 td2">?</td>
+        <td class="td4">?</td>
+    </tr>
+    <tr>
         <td class="td1"><a href="http://tanalie-server.cz/" target=_blank><img src="images/tanalie.jpg" class="odkazy ob"></a></td> <!--- https://www.facebook.com/Tanalie.cz/ --->
         <td class="td2">Tanalie</td>
         <td class="td3 td2"></td>
         <td class="td3 td2">Založeno 14.srpen 2017 (nespuštěno)</td>
+        <td class="td3 td2">?</td>
+        <td class="td4">?</td>
+    </tr>
+    <tr>
+        <td class="td1"><a href="https://www.facebook.com/Artic-Classic-Metin2-1323681587699479/?__tn__=HH-R" target=_blank><img src="images/tanalie.jpg" class="odkazy ob"></a></td>
+        <td class="td2">Artic Classic</td>
+        <td class="td3 td2"></td>
+        <td class="td3 td2"></td>
+        <td class="td3 td2">?</td>
+        <td class="td4">?</td>
+    </tr>
+    <tr>
+        <td class="td1"><a href="https://www.facebook.com/WOM.eu/?__xts__[0]=68.ARAMaJTtuP1RdoDyJdDTaU1Dkl0oIL9ILA1J2fXUJ_vdA-ZqSIr4TQGI-qE9GS-ZHVTI-jXTAintedxjuMT364BPDQgPrZpLNIB6dlBG8Dec-aapQ_GPmWTGuazT3tYxJyBX9_RdfJ3Cp7qPKK3shH24MGz5SCNozoEfG92qcOLkVWqr6vkNecMCyzrhKgfCYG6L4AOm80fY15Q7SXoyTTXZhqsE9kB0chlCO9uQdc9uk8NFxV8VjXgMcFJVoEARYtORnANOvsBRT2tVR_fPm_COX4E8-iv17VDXhW9nq3sCCf5hn1nkOsBCwisNPyX3bwuSq-gExW7-bDawaYrCqLqV&__tn__=kHH-R" target=_blank><img src="images/tanalie.jpg" class="odkazy ob"></a></td>
+        <td class="td2">World of memory</td>
+        <td class="td3 td2"></td>
+        <td class="td3 td2"></td>
         <td class="td3 td2">?</td>
         <td class="td4">?</td>
     </tr>

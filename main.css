@@ -117,6 +117,15 @@ h2{
 
 }
 
+.topfunctions{
+  color: black;
+  text-decoration: none;
+}
+
+.topfunctions:hover{
+  color: red;
+}
+
 main{
   font-family: 'Nunito', sans-serif;
   padding-left: 60px;
