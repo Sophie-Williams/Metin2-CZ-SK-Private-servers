@@ -148,3 +148,7 @@ function StopSound(soundobj) {
     thissound.pause();
     thissound.currentTime = 0;
 }
+
+function ScrollTop(){
+  window.scrollTo(0,0);
+}

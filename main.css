@@ -284,6 +284,34 @@ main{
   opacity: 1;
 }
 
+.nadpis_info{
+  position: absolute;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  border: 2px 1px black solid;
+}
+
+.table2{
+  margin-top: 50px;
+  background-color: grey;
+}
+
+.error{
+  text-decoration: none;
+  color: black;
+
+}
+
+.error:hover{
+  color: red;
+}
+
+.paticka{
+    text-align: right;
+    font-style: italic;
+}
+
 
 
 @media(max-width: 1100px){
