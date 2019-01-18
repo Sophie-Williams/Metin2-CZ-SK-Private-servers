@@ -285,7 +285,7 @@ main{
 }
 
 .nadpis_info{
-  position: absolute;
+  position: relative;
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
@@ -310,6 +310,12 @@ main{
 .paticka{
     text-align: right;
     font-style: italic;
+}
+
+.text_info{
+  position: relative;
+  margin-right: 30px;
+  margin-left: 10px;
 }
 
 
