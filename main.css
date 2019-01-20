@@ -20,6 +20,7 @@ table, th, td{
 
 table{
   width: 100%;
+  margin-right: 30px;
 }
 
 th{
@@ -310,6 +311,7 @@ main{
 .paticka{
     text-align: right;
     font-style: italic;
+    padding-right: 30px;
 }
 
 .text_info{
