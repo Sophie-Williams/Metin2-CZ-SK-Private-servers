@@ -1,3 +1,5 @@
+@media(max-width: 1920px){
+
 body{
   background-color: grey;
   margin: 0 auto;
@@ -7,7 +9,7 @@ h1{
   text-align: center;
   color: #8B0D04;
   font-family: 'Spectral SC', serif;
-  font-size: 40px;
+  font-size: 50px;
   text-transform: uppercase;
   text-shadow: 2px 2px black;
   position: relative;
@@ -21,12 +23,13 @@ table, th, td{
 table{
   width: 100%;
   margin-right: 30px;
+  margin-left: 20px;
 }
 
 th{
   text-align: left;
   height: 35px;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: bold;
   color: #911108;
   text-shadow: 1px 1px black;
@@ -47,36 +50,36 @@ th{
 }
 
 .th0{
-  width: 150px;
+  width: 10%;
 }
 
 .th1{
-  width: 185px;
+  width: 15%;
 }
 
 .th2{
-  width: 170px;
+  width: 10%;
   text-align: center;
-
 }
 
 .th3{
-  width: 170px;
+  width: 15%;
   text-align: center;
 }
 
 .th4{
-  width: 140px;
+  width: 15%;
   text-align: center;
 }
 
 .th5{
-  width: 140px;
+  width: 15%;
   text-align: center;
 }
 
 .th6{
     padding-left: 40px;
+    width: 10%;
 }
 
 .td2{
@@ -86,14 +89,11 @@ th{
   color: black;
   border-top-style: solid;
   border-top: 2px 2px black;
-
 }
 
 .td1{
   padding-left: 30px;
   padding-bottom: 15px;
-
-
 }
 
 .td3{
@@ -164,8 +164,8 @@ main{
 
 .button{
   position: absolute;
-  height: 50px;
-  width: 130px;
+  height: 60px;
+  width: 192px;
   font-weight: bold;
   text-decoration: none;
   text-align: center;
@@ -178,8 +178,8 @@ main{
   color: #fffabd;
   text-shadow: 1px 1px black;
   text-transform: uppercase;
-  top: 300px;
-  left: 153px;
+  top: 43%;
+  left: 17.5%;
   text-align: center;
   padding: 10px 9px;
   background-color: #CBA819;
@@ -204,8 +204,8 @@ main{
   color: #fffabd;
   text-shadow: 1px 1px black;
   text-transform: uppercase;
-  top: 300px;
-  left: 553px;
+  top: 43%;
+  left: 45%;
   text-align: center;
   padding: 10px 9px;
   background-color: #CBA819;
@@ -227,8 +227,8 @@ main{
   color: #fffabd;
   text-shadow: 1px 1px black;
   text-transform: uppercase;
-  top: 300px;
-  left: 953px;
+  top: 43%;
+  left: 72.5%;
   text-align: center;
   padding: 10px 9px;
   background-color: #CBA819;
@@ -319,7 +319,7 @@ main{
   margin-right: 30px;
   margin-left: 10px;
 }
-
+}
 
 
 @media(max-width: 1100px){
