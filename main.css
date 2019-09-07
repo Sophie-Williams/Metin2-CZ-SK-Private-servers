@@ -13,23 +13,36 @@ h1{
   text-transform: uppercase;
   text-shadow: 2px 2px black;
   position: relative;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-table, th, td{
+a{
+  text-decoration: none;
+}
+
+.a1{
+  color: black;
+}
+
+.a1:hover{
+  color: white;
+}
+
+table{
+  margin-left: 20px;
   border-collapse: collapse;
   position: relative;
 }
 
-table{
-  width: 100%;
-  margin-right: 30px;
-  margin-left: 20px;
+.table1{
+  margin-top: 7%;
+  margin-right: 5%;
 }
 
-th{
-  text-align: left;
+.td-top{
   height: 35px;
-  font-size: 23px;
+  font-size: 28px;
   font-weight: bold;
   color: #911108;
   text-shadow: 1px 1px black;
@@ -42,19 +55,20 @@ th{
 }
 
 .metin2logo{
-  padding-left: 29%;
-  padding-right: 29%;
-  width: 42%;
+  padding-left: 35%;
+  padding-right: 35%;
+  width: 30%;
   position: relative;
   margin-top: 30px;
 }
 
 .th0{
-  width: 10%;
+  width: 4%;
 }
 
 .th1{
-  width: 15%;
+  width: 13%;
+  text-align: left;
 }
 
 .th2{
@@ -63,28 +77,33 @@ th{
 }
 
 .th3{
-  width: 15%;
+  width: 11%;
   text-align: center;
 }
 
 .th4{
-  width: 15%;
+  width: 8%;
   text-align: center;
 }
 
 .th5{
-  width: 15%;
+  width: 7%;
   text-align: center;
 }
 
 .th6{
-    padding-left: 40px;
     width: 10%;
+    text-align: center;
+}
+
+.th7{
+    width: 10%;
+    text-align: center;
 }
 
 .td2{
   padding-bottom: 30px;
-  font-size: 23px;
+  font-size: 27px;
   font-weight: bold;
   color: black;
   border-top-style: solid;
@@ -98,7 +117,7 @@ th{
 
 .td3{
   text-align: center;
-  padding-bottom: 30px;
+  width: 1%;
 }
 
 .td4{
@@ -132,6 +151,10 @@ main{
   padding-left: 60px;
   padding-right: 30px;
   padding-top: 65px;
+}
+
+.texts-images{
+  float: right;
 }
 
 .background-image{
@@ -248,7 +271,6 @@ main{
   color: #fffabd;
   text-shadow: 1px 1px black;
   text-transform: uppercase;
-  left: 553px;
   bottom: inherit;
   text-align: center;
   padding: 10px 9px;
@@ -293,25 +315,98 @@ main{
   border: 2px 1px black solid;
 }
 
-.table2{
-  margin-top: 50px;
+.div-end{
+  position: fixed;
+  bottom: 0;
   background-color: grey;
+  width: 100%;
 }
 
 .error{
   text-decoration: none;
   color: black;
+  right: 6%;
+  position: absolute;
+}
 
+.copyright{
+  font-style: italic;
+  position: absolute;
+  left: 6%;
 }
 
 .error:hover{
   color: red;
 }
 
+.table2{
+  border: 2px 2px solid blue;
+}
+
+.seznam{
+  top: 55%;
+  left: 16%;
+  position: absolute;
+  font-size: 19px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.seznam-nadpis{
+  font-size: 21px;
+  color: blue;
+  border-bottom: 1px solid red;
+}
+
+.seznam-text{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.seznam-text:hover{
+  color: white;
+}
+
+.cell2{
+    margin-top: 110px;
+}
+
+.textik{
+		text-indent: -9999px;
+    background-image: url(/the_img.png);
+    height: 40px;
+		position: absolute;
+}
+
+.texts{
+	font-size: 20px;
+  display: block;
+  margin-left: 35%;
+  margin-right: 10%;
+  overflow: auto;
+}
+
+.links{
+	text-align: left;
+	font-family: var(--font-normal);
+	border-top: 0.5px var(--color-dark) solid;
+}
+
+.zobrazit{
+	text-indent: 0px;
+}
+
+.znicit{
+	display: none;
+}
+
 .paticka{
-    text-align: right;
+    text-align: center;
     font-style: italic;
-    padding-right: 30px;
+}
+
+.nahoru{
+  text-align: center;
 }
 
 .text_info{

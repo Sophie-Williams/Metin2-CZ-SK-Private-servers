@@ -152,3 +152,22 @@ function StopSound(soundobj) {
 function ScrollTop(){
   window.scrollTo(0,0);
 }
+
+
+let zobrazeno = false;
+let zobrazeno2 = false;
+
+function funkce(id){
+const clanky = document.getElementsByClassName("textik");
+let scroll = document.documentElement.scrollTop;
+ if (zobrazeno === false) {
+   for (let i = 0; i<clanky.length ; i++){
+     clanky[i].classList.add("znicit")
+     clanky[i].classList.remove("zobrazit")
+   }
+   document.getElementById("cell").classList.remove("znicit")
+   document.getElementById("mezery").classList.remove("znicit")
+   document.getElementById(id).classList.remove("znicit")
+   document.getElementById(id).classList.add("zobrazit")
+ }
+}

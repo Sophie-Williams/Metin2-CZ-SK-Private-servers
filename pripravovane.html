@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<html>
-<meta charset="utf-8">
+<html lang="en-US">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=debvice-width, initial-scale=1.0">
+    <meta name="keywords" content="Metin2, MetinCZ, CZ/SK private servers, metin server, cz/sk metin2">
+    <meta name="description" content="Stránka o českých a slovenských privátních serverech hry Metin2">
+    <meta name="author" content="Filip Opluštil">
   <link rel="stylesheet" href="main.css">
   <script src="javascript-metin2.js"></script>
   <style>
@@ -16,8 +20,7 @@
     <img src="images/mt2-wallpaper.jpg" class="background-image">
     <a href="index.html"><img src="images/metin2logo_main.png" class="metin2logo"></a>
   </header>
-  <embed src="audio/metin2themesong.mp3" autostart="true" loop="true" loop="loop"
-  width="0" height="0">
+  <embed src="audio/metin2themesong.mp3" autostart="true" loop="true" loop="loop" width="0" height="0">
   </embed>
 </head>
 <body>
@@ -32,16 +35,16 @@
     <input type="button" value="Ukončené" class="button button3">
   </a>
 <main>
-  <table id="myTable">
+  <table id="myTable" class="table1">
     <tr>
-      <th class="th0"></th>
-      <th class="th1"><a href="javascript:NameSort()" class="topfunctions"><p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Název serveru</p></a></th>
-      <th class="th2"><a href="javascript:LevelSort()" class="topfunctions"><p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Maximální level</p></a></th>
-      <th class="th3"><a href="javascript:DateSort()" class="topfunctions"><p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Datum spuštění</p></a></th>
-      <th class="th5"><a href="javascript:AccountSort()" class="topfunctions"><p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Počet účtů</p></a></th>
-      <th class="th6"><a href="javascript:AutorSort()" class="topfunctions"><p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Majitel</p></a></th>
-      <th class="th6"><a href="javascript:AutorSort()" class="topfunctions"><p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Styl</p></a></th>
-      <th class="th7"><a href="javascript:AutorSort()" class="topfunctions"><p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Počet hlasů</p></a></th>
+      <th class="th0 td-top"></th>
+      <th class="th1 td-top"><a href="javascript:NameSort()" class="topfunctions"><p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Název serveru</p></a></th>
+      <th class="th2 td-top"><a href="javascript:LevelSort()" class="topfunctions"><p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Maximální level</p></a></th>
+      <th class="th3 td-top"><a href="javascript:DateSort()" class="topfunctions"><p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Datum spuštění</p></a></th>
+      <th class="th4 td-top"><a href="javascript:AccountSort()" class="topfunctions"><p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Počet účtů</p></a></th>
+      <th class="th5 td-top"><a href="javascript:AutorSort()" class="topfunctions"><p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Majitel</p></a></th>
+      <th class="th6 td-top"><a href="javascript:AutorSort()" class="topfunctions"><p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Styl</p></a></th>
+      <th class="th7 td-top"><a href="javascript:AutorSort()" class="topfunctions"><p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Počet hlasů</p></a></th>
       <audio id="mySound" src="audio/beep1.wav">
     </tr>
     <tr>
@@ -77,6 +80,16 @@
     <tr>
         <td class="td1"><a href="https://www.facebook.com/Artic-Classic-Metin2-1323681587699479/?__tn__=HH-R" target=_blank><img src="images/arcticclassic.jpg" class="odkazy ob"></a></td>
         <td class="td2">Artic Classic</td>
+        <td class="td3 td2"></td>
+        <td class="td3 td2"></td>
+        <td class="td3 td2">?</td>
+        <td class="td3 td2">?</td>
+        <td class="td3 td2">?</td>
+        <td class="td3 td2">?</td>
+    </tr>
+    <tr>
+        <td class="td1"><a href="https://www.facebook.com/kiruma2/" target=_blank><img src="images/kiruma2.jpg" class="odkazy ob"></a></td>
+        <td class="td2">Kiruma2</td>
         <td class="td3 td2"></td>
         <td class="td3 td2"></td>
         <td class="td3 td2">?</td>
@@ -455,19 +468,18 @@
         <td class="td3 td2">?</td>
     </tr>
   </table>
-<a href="javascript:ScrollTop()">
-  <input type="button" value="Nahoru" class="button4a button4 button">
-</a>
-<table class="table2">
-  <th>
-    <td>
-      <a href="informace.html" class="error">Nahlásit chybu v databázi</a>
-    </td>
-    <td class="paticka">
-      Copyright © 2016-2019 Všechna práva vyhrazena.
-    </td>
-  </th>
-</table>
+
+<div class="paticka">
+
+    <a href="javascript:ScrollTop()">
+        <input type="button" value="Nahoru" class="button4a button4 button nahoru">
+    </a>
+
+</div>
+<div class="copyright">
+    Copyright © 2016-2019 Všechna práva vyhrazena.
+</div>
+<a href="informace.html" class="error">Nahlásit chybu v databázi</a>
 </main>
 </body>
 </html>
